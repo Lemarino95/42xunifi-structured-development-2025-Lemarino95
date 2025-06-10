@@ -1,5 +1,5 @@
-#ifndef CRITICAL_WINDOWS_H
-# define CRITICAL_WINDOWS_H
+#ifndef PASSWORD_VALIDATOR_H
+# define PASSWORD_VALIDATOR_H
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -14,5 +14,10 @@
 # define BLUE "\033[34m"
 # define MAGENTA "\033[95m"
 # define BRCYAN "\033[96m"
+
+typedef struct	pwstatus
+{
+	bool		validity;
+}				PwStatus;
 
 #endif
