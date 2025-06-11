@@ -1,3 +1,5 @@
+//         Written by: giusnob and lemarino
+
 #include "segmented_runs.h"
 
 // Returns the number of segments from the array of integers arr[] containing at least

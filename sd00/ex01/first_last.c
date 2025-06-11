@@ -1,3 +1,5 @@
+//         Written by: giusnob and lemarino
+
 #include "first_last.h"
 
 // A function that receives An array of integers, its size, and a target integer,
@@ -9,6 +11,8 @@ void first_last(int arr[], int size, int target, int *first, int *last)
 	*last = -1;
 	int i = 0;
 
+	if (size == 0)
+		return ;
 	while (i < size){
 		if (arr[i] == target){
 			*first = i;

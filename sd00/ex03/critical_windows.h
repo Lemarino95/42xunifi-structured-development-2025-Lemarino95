@@ -1,8 +1,8 @@
-#ifndef AVERAGE_H
-# define AVERAGE_H
+#ifndef CRITICAL_WINDOWS_H
+# define CRITICAL_WINDOWS_H
 
 #include <stdio.h>
-#include <float.h>
+#include <stdbool.h>
 
 # define NO_ALL "\033[0m"
 # define NO_COLOR "\e[39m"
@@ -14,10 +14,5 @@
 # define BLUE "\033[34m"
 # define MAGENTA "\033[95m"
 # define BRCYAN "\033[96m"
-
-// A function that takes an array of integers and its size, and returns the average as
-//  a float. The elements must be in range 0-100 inclusive and will be
-//  ignored if invalid.
-float average(const int *arr, int size);
 
 #endif

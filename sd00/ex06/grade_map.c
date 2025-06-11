@@ -1,4 +1,5 @@
 //         Written by: giusnob and lemarino
+//           Special thanks to: plichota
 
 #include "grade_map.h"
 
@@ -72,7 +73,6 @@ void passfail_mapper(const int *scores, int size, const char **str)
 	}
 }
 
-
 // A program that converts an array of integer scores into an array of grade strings
 //  using a dynamic mapping strategy.
 // Supports :
@@ -83,9 +83,9 @@ void map_scores(const int *scores, int size, GradeMapper mapper, const char **ma
 {
 	if (mapper == PLUSMINUS)
 		plusminus_mapper(scores, size, mapped_grades);
-	if (mapper == STANDARD)
+	else if (mapper == STANDARD)
 		standard_mapper(scores, size, mapped_grades);
-	if (mapper == PASSFAIL)
+	else if (mapper == PASSFAIL)
 		passfail_mapper(scores, size, mapped_grades);
 }
 

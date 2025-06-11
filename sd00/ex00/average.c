@@ -1,3 +1,5 @@
+//         Written by: giusnob and lemarino
+
 #include "average.h"
 
 // A function that takes an array of integers and its size, and returns the average as

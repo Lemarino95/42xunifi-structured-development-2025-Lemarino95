@@ -16,32 +16,32 @@
 # define BRCYAN "\033[96m"
 
 //__________________________ plusminus mapper __________________________//
-# define A1 "A+"	//97–100
-# define A2 "A"		//93–96
-# define A3 "A-"	//90–92
-# define B1 "B+" 	//87–89
-# define B2 "B" 	//83–86
-# define B3 "B-"	//80–82
-# define C1 "C+"	//77–79
-# define C2 "C" 	//73–76
-# define C3 "C-"	//70–72
-# define D1 "D+"	//67–69
-# define D2 "D"		//63–66
-# define D3 "D-"	//60–62
-# define F1 "F" 	//0–59
+# define A1 "A+"	//97~100
+# define A2 "A"		//93~96
+# define A3 "A-"	//90~92
+# define B1 "B+" 	//87~89
+# define B2 "B" 	//83~86
+# define B3 "B-"	//80~82
+# define C1 "C+"	//77~79
+# define C2 "C" 	//73~76
+# define C3 "C-"	//70~72
+# define D1 "D+"	//67~69
+# define D2 "D"		//63~66
+# define D3 "D-"	//60~62
+# define F1 "F" 	//0~59
 //______________________________________________________________________//
 
 //__________________________ standard mapper __________________________//
-# define A "A" 		//90–100
-# define B "B" 		//80–89
-# define C "C" 		//70–79
-# define D "D" 		//60–69
-# define F "F" 		//0–59
+# define A "A" 		//90~100
+# define B "B" 		//80~89
+# define C "C" 		//70~79
+# define D "D" 		//60~69
+# define F "F" 		//0~59
 //______________________________________________________________________//
 
 //___________________________ passfail mapper __________________________//
-# define PASSED "P" //60–100
-# define FAILED "F" //0–60
+# define PASSED "P" //60~100
+# define FAILED "F" //0~60
 //______________________________________________________________________//
 
 

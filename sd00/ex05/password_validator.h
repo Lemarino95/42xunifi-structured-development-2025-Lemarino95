@@ -15,9 +15,10 @@
 # define MAGENTA "\033[95m"
 # define BRCYAN "\033[96m"
 
-typedef struct	pwstatus
+typedef enum status
 {
-	bool		validity;
-}				PwStatus;
+	VALID,
+	INVALID
+}			PwStatus;
 
 #endif
