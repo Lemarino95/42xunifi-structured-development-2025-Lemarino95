@@ -1,3 +1,9 @@
+/*--------------------------------------------------\\
+||                                                  ||
+||         Written by: giusnob and lemarino         ||
+||                                                  ||
+\\--------------------------------------------------*/
+
 #include "movie_planner.h"
 
 // Returns user preferences. Returns NULL on failure.

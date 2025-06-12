@@ -27,8 +27,8 @@ typedef struct	fsnode
 	char			*name;
 	int				size;
 	NodeType		type;
-	struct fsnode	*child;
-	struct fsnode	*sibling;
+	struct fsnode	*child;//   right
+	struct fsnode	*sibling;// left
 }				FSNode;
 
 

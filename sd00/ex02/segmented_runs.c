@@ -1,4 +1,8 @@
-//         Written by: giusnob and lemarino
+/*--------------------------------------------------\\
+||                                                  ||
+||         Written by: giusnob and lemarino         ||
+||                                                  ||
+\\--------------------------------------------------*/
 
 #include "segmented_runs.h"
 

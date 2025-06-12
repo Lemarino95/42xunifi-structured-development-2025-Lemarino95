@@ -1,5 +1,8 @@
-//         Written by: giusnob and lemarino
-//            Special thanks to: pdessant
+/*--------------------------------------------------\\
+||         Written by: giusnob and lemarino         ||
+||                                                  ||
+||            Special thanks to: pdessant           ||
+\\--------------------------------------------------*/
 
 #include "filesystem.h"
 

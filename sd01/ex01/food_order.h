@@ -43,7 +43,7 @@ struct OrderConfirmation *create_standard_confirmation(void);
 struct OrderConfirmation *create_preorder_confirmation(void);
 
 // Sends the confirmation to the user.
-void send_confirmation_notification(struct OrderConfirmation *confirmation);
+// void send_confirmation_notification(struct OrderConfirmation *confirmation);
 
 
 int process_food_order(struct OrderRequest *request);

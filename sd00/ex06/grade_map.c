@@ -1,5 +1,8 @@
-//         Written by: giusnob and lemarino
-//           Special thanks to: plichota
+/*--------------------------------------------------\\
+||         Written by: giusnob and lemarino         ||
+||                                                  ||
+||            Special thanks to: plichota           ||
+\\--------------------------------------------------*/
 
 #include "grade_map.h"
 
