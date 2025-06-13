@@ -1,25 +1,29 @@
+/*--------------------------------------------------\\
+||                                                  ||
+||         Written by: giusnob and lemarino         ||
+||                                                  ||
+\\--------------------------------------------------*/
+
 #ifndef GRADE_MAP_H
 # define GRADE_MAP_H
 
-#include <stdio.h>
 #include <stdlib.h>
 
-# define NO_ALL "\033[0m"
-# define NO_COLOR "\e[39m"
-# define BLACK "\e[30m"
-# define RED "\033[31m"
-# define GREEN "\e[32m"
-# define BRGREEN "\033[32;1m"
-# define YELLOW "\033[33m"
-# define BLUE "\033[34m"
-# define MAGENTA "\033[95m"
-# define BRCYAN "\033[96m"
+
+typedef struct	Preferences
+{
+	char	**preferred_movie;
+}	Preferences;
+
+typedef struct	MovieList
+{
+	char	**proposed_movies;
+}	MovieList;
 
 typedef struct	Plan
 {
-
-}
-				Plan;
+	char	**approved_movies;
+}				Plan;
 
 // Returns user preferences. Returns NULL on failure.
 struct Preferences *get_user_preferences(void);

@@ -58,5 +58,8 @@ struct Playlist *create_playlist(void)
 		return (NULL);
 	}
 
+	free_mood_settings(mood);
+	free_filter_settings(filters);
+	free_song_data(song);
 	return (playlist);
 }

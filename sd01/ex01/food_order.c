@@ -1,6 +1,6 @@
 /*--------------------------------------------------\\
 ||                                                  ||
-||         Written by: giusnob and lemarino         ||
+||         Written by: lemarino                     ||
 ||                                                  ||
 \\--------------------------------------------------*/
 
@@ -12,6 +12,10 @@ static void delete_order(struct OrderRequest *request)
 	free(request);
 }
 
+// Automated processor of restaurant orders.
+// Fills a standard request during working hours,
+//  otherwise a preorder.
+// On completion, sends a notification to the user.
 int process_food_order(struct OrderRequest *request)
 {
 	OrderConfirmation *confirmation = NULL;
@@ -32,15 +36,4 @@ int process_food_order(struct OrderRequest *request)
 	send_confirmation_notification(confirmation);
 
 	return (1);
-}
-
-int main()
-{
-	OrderRequest	*request;
-
-	request->order = "Panino sbrodolino";
-	request->time_of_day = 12,30;
-
-	printf("%d\n", process_food_order(request));
-
 }
