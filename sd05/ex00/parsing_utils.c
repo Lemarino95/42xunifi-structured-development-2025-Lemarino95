@@ -6,7 +6,7 @@
 /*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/19 16:50:09 by lemarino          #+#    #+#             */
-/*   Updated: 2025/06/20 10:41:41 by lemarino         ###   ########.fr       */
+/*   Updated: 2025/06/20 11:15:10 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,11 +56,11 @@ bool    ft_check_title(char *title)
     {
         if (title[0] == ' ')
             return false;
-        if (title[i] == ' ' && title[i + 1] == ' ')
+        if ((title[i] == ' ' && title[i + 1] == ' ') || title[i] == '\t')
             return false;
         i++;
     }
-    if (title[i - 1] == ' ')
+    if (title[i - 1] == ' ' || title[i] == '\t')
         return false;
     return true;
 }
@@ -73,9 +73,9 @@ bool    ft_check_author(char *author)
     {
         if (!ft_isalpha(author[0]))
             return false;
-        if (!ft_isalpha(author[i]) && author[i] != '.' && author[i] != ' ')
+        if (!ft_isalpha(author[i]) && author[i] != '.' && author[i] != ' ' && author[i] != '\t')
             return false;
-        if (author[i] == ' ' && author[i + 1] == ' ')
+        if (author[i] == ' '  || author[i] == '\t' && author[i + 1] == ' ' || author[i + 1] == '\t')
             return false;
         i++;
     }
