@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_hexadecimal.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
+/*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/02 15:13:55 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 14:54:22 by gpirozzi         ###   ########.fr       */
+/*   Created: 2024/12/02 15:13:55 by lemarino          #+#    #+#             */
+/*   Updated: 2025/06/20 10:41:40 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

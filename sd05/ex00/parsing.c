@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parsing.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fzuccaro <fzuccaro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/19 16:00:07 by fzuccaro          #+#    #+#             */
-/*   Updated: 2025/06/19 20:03:57 by fzuccaro         ###   ########.fr       */
+/*   Created: 2025/06/19 16:00:07 by lemarino          #+#    #+#             */
+/*   Updated: 2025/06/20 11:04:22 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ void    data_init(t_book *books)
 	books->book_id = NULL;
 	books->title = NULL;
 	books->author = NULL;
+	books->next_book = NULL;
 }
 
 bool	ft_fill_books(t_book *books, char **splitted_line)
@@ -77,6 +78,7 @@ int		load_and_fill_catalogue(int fd, t_book *books)
 		count_line++;
 		free(line);
 		line = get_next_line(fd);
+		ft_free_matrix(splitted_line);
     }
 	return 1;
 }

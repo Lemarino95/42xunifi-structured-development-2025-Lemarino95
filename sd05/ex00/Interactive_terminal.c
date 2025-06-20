@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Interactive_terminal.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fzuccaro <fzuccaro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/19 18:21:32 by fzuccaro          #+#    #+#             */
-/*   Updated: 2025/06/19 20:31:41 by fzuccaro         ###   ########.fr       */
+/*   Created: 2025/06/19 18:21:32 by lemarino          #+#    #+#             */
+/*   Updated: 2025/06/20 10:41:40 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

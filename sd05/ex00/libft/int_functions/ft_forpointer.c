@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_forpointer.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
+/*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/02 16:03:17 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 14:53:59 by gpirozzi         ###   ########.fr       */
+/*   Created: 2024/12/02 16:03:17 by lemarino          #+#    #+#             */
+/*   Updated: 2025/06/20 10:41:40 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

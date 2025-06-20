@@ -1,18 +1,6 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: fzuccaro <fzuccaro@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/06/19 19:01:06 by fzuccaro          #+#    #+#              #
-#    Updated: 2025/06/19 20:11:07 by fzuccaro         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -I libft -g
-NAME = Library_Software
+NAME = lib_software
 OBJ_DIR = obj
 
 SRC_MAIN = Interactive_terminal.c Library_Software.c list_utils.c parsing_utils.c\

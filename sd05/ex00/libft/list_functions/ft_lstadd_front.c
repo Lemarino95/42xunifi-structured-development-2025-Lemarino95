@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
+/*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/26 16:23:21 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 14:56:19 by gpirozzi         ###   ########.fr       */
+/*   Created: 2024/11/26 16:23:21 by lemarino          #+#    #+#             */
+/*   Updated: 2025/06/20 10:41:40 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
