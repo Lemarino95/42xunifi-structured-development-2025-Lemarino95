@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin_three.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpirozzi <giovannipirozzi12345@gmail.co    +#+  +:+       +#+        */
+/*   By: lemarino <lemarino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/18 12:08:32 by gpirozzi          #+#    #+#             */
-/*   Updated: 2025/05/20 15:14:18 by gpirozzi         ###   ########.fr       */
+/*   Created: 2025/04/18 12:08:32 by lemarino          #+#    #+#             */
+/*   Updated: 2025/06/23 19:25:53 by lemarino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
